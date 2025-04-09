@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aside {
+    float: left;
+    width: 200px;
+    height: 100vh;
+    background-color: aqua;
+  }
+
+  .main {
+    height: 100vh;
+    overflow: hidden;
+    /* 创建BFC */
+    background-color: aquamarine;
+    /* main会自动填充剩余空间且不会与浮动的aside重叠 */
+  }
+
+  .float-element {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+  }
+
+  .text-container {
+    /* overflow: hidden; */
+    display: flow-root;
+    /* 创建BFC，防止文字环绕 */
+  }
+</style>
+
+<body>
+  <div class="float-element">
+    <!-- <img src="https://img1.baidu.com/it/u=438140168,1695923378&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" alt=""> -->
+  </div>
+  <div class="text-container">
+
+    这是一段文本，它会被包裹在一个容器中，不会与浮动的元素重叠。
+
+  </div>
+</body>
+
+</html>

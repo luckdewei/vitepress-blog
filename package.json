@@ -1,0 +1,18 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "luckywei",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs --no-cache",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "dependencies": {},
+  "packageManager": "pnpm@8.14.0"
+}
