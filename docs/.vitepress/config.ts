@@ -56,6 +56,10 @@ export default defineConfig({
             {
               text: '链表',
               link: '/blogs/数据结构/链表'
+            },
+            {
+              text: '二叉树',
+              link: '/blogs/数据结构/二叉树'
             }
           ]
         },
