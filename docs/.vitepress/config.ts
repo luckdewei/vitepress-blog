@@ -60,6 +60,10 @@ export default defineConfig({
             {
               text: '二叉树',
               link: '/blogs/数据结构/二叉树'
+            },
+            {
+              text: '双指针',
+              link: '/blogs/数据结构/双指针'
             }
           ]
         },
