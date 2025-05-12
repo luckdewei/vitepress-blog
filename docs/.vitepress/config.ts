@@ -64,6 +64,10 @@ export default defineConfig({
             {
               text: '双指针',
               link: '/blogs/数据结构/双指针'
+            },
+            {
+              text: '字符串',
+              link: '/blogs/数据结构/字符串'
             }
           ]
         },
